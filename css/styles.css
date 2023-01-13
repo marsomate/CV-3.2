@@ -98,6 +98,43 @@ font-weight: bold;
 .carousel-inner{
     width: 60%;
     margin: auto;
+    text-align: center; 
+}
+.plan{
+ padding: 5%;       
+}
+#pricing{
     text-align: center;
-    
+    margin: auto
+}
+.price{
+    padding: 0;
+    padding-bottom: 15%;
+}
+.card{
+    height: 100%;
+    margin: auto;
+}
+#cta{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    background-color: #ff4c68;
+
+}
+.card-title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+}
+#footer{
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    padding: 1%
+}
+.row{
+    text-align: center;
+    margin: auto;
+    width: 100;
+
 }
