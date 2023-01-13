@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white
+}
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 0;
+}
+.col-md-6{
+    padding:3%;
+    padding-bottom: 0;
+}
+.navbar-brand{
+font-size: 2rem;
+}
+.nav-item{
+    font-size: 1.5rem;
+}
+.crop{
+    padding:0%;
+}
