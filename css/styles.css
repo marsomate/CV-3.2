@@ -1,5 +1,18 @@
+h1{
+    font-family: 'Montserrat';
+}
+h2{
+    font-family: 'Montserrat';
+}
+h3{
+    font-family: 'Montserrat';
+}
+h4{
+    font-family: 'Montserrat';
+}
 p{
     font-size: 1rem;
+    font-family: 'Ubuntu';
 }
 .navbar{
     background-color: #393c3d;
@@ -58,7 +71,32 @@ p{
 }
 .testimonial-text{
     text-align: center;
+    vertical-align: bottom;
     width: 60%;
     margin: auto;
+    padding: 10%;
+}
+.support{
+    text-align: center;
+    background-color: #DBE2EF;
     padding: 5%;
+    padding-bottom: 0;
+    position: relative;
+}
+.tihany{
+    text-align: center;
+    position: relative;
+
+}
+.tihany-picture{
+    width: 25%;
+    display: block;
+    vertical-align: auto;
+    position: relative;
+    margin: auto;
+    bottom:20%;
+}
+.tihany-picture-hidden{
+    width: 200px;  
+    visibility: hidden;  
 }
