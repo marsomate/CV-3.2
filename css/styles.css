@@ -17,6 +17,9 @@ p{
 .navbar{
     background-color: #393c3d;
 }
+.toggler{
+    color: wheat;
+}
 .navbar-brand{
     color: #DBE2EF;
     font-weight: bold;
