@@ -1,3 +1,6 @@
+p{
+    font-size: 1rem;
+}
 .navbar{
     background-color: #393c3d;
 }
@@ -13,9 +16,11 @@
     background-color: #DBE2EF;
     padding : 0;
     margin:0;
+    position: relative;
 }
 .profile-picture{
-    width: 60%;
+    width: 300px;
+    height: auto;
     margin: 10% 10%;
 }
 .intro{
@@ -23,14 +28,17 @@
     line-height: 6.5;
 }
 .robot-picture{
-    width: 100%;
-    position: relative;
-    top: 40%;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
     right: 20%;
-    padding: 0;
 }
-.third-row{
-    padding: 0;
+.robot-picture-hidden{
+    width: 300px;
+    position: relative;
+    bottom: 0;
+    right: 20%;
+    visibility: hidden;
 }
 .second-container{
     padding : 0% 5%;
