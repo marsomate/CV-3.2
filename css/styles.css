@@ -29,7 +29,10 @@ p{
     color: #DBE2EF;
 }
 .first-container{
-    background-color: #DDDDDD;
+    background-image: url('https://cdn.pixabay.com/photo/2020/05/06/06/18/blue-5136251_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #EAFDFC;
     padding : 0;
     margin:0;
     position: relative;
@@ -57,7 +60,7 @@ p{
     visibility: hidden;
 }
 #second{
-    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -75,7 +78,7 @@ p{
     text-decoration: underline;
 }
 .third-container{
-    background-color: #7B8FA1;
+    background-color: #91D8E4;
     text-align: center;
     padding: 5%;
 }
@@ -91,7 +94,7 @@ p{
 }
 .support{
     text-align: center;
-    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
