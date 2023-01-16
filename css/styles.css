@@ -91,6 +91,7 @@ p{
     padding-top: 3%;
     text-decoration: underline;
 }
+
 .third-container{
     background-image: url('https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1800&t=st=1673881817~exp=1673882417~hmac=acb3a0f1a85b747ab6df7bd6d5887d6f0c31bf9ff2884cebd46354e29b315f0d');
     background-repeat: no-repeat;
@@ -107,7 +108,7 @@ p{
     font-size: 1.2rem;
     color: white;
 }
-.carousel-item{
+.carousel-1{
     height: 300px;
 }
 .support{
