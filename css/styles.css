@@ -56,12 +56,19 @@ p{
     right: 20%;
     visibility: hidden;
 }
+#second{
+    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
 .second-container{
     padding : 0% 5%;
 }
 .bio{
     padding: 5%;
     text-align: center;
+    display: block;
 }
 .skill-elements{
     padding-top: 3%;
@@ -81,9 +88,12 @@ p{
 }
 .support{
     text-align: center;
-    background-color: #DBE2EF;
+    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
     padding: 5%;
-    padding-bottom: 0;
+    padding-bottom: 2%;
     position: relative;
 }
 .tihany{
