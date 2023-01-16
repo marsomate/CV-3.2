@@ -29,7 +29,7 @@ p{
     color: #DBE2EF;
 }
 .first-container{
-    background-color: #DBE2EF;
+    background-color: #DDDDDD;
     padding : 0;
     margin:0;
     position: relative;
@@ -75,16 +75,19 @@ p{
     text-decoration: underline;
 }
 .third-container{
-    background-color: #6384ac;
+    background-color: #7B8FA1;
     text-align: center;
     padding: 5%;
 }
 .testimonial-text{
     text-align: center;
-    vertical-align: bottom;
-    width: 60%;
+    width: 80%;
     margin: auto;
-    padding: 10%;
+    padding: 5%;
+    font-size: 1.2rem;
+}
+.carousel-item{
+    height: 300px;
 }
 .support{
     text-align: center;
@@ -113,3 +116,9 @@ p{
     width: 200px;  
     visibility: hidden;  
 }
+.end{
+    background-color: #a5a5a5;
+    padding: 1%;
+    text-align: center;
+}
+
