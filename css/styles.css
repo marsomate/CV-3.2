@@ -31,8 +31,7 @@ p{
 .first-container{
     background-image: url('https://cdn.pixabay.com/photo/2020/05/06/06/18/blue-5136251_960_720.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #EAFDFC;
+    background-size: 100% 100%;
     padding : 0;
     margin:0;
     position: relative;
@@ -41,6 +40,9 @@ p{
     width: 300px;
     height: auto;
     margin: 10% 10%;
+}
+.intro-1{
+    padding-top: 10%;
 }
 .robot-picture{
     width: 300px;
@@ -115,6 +117,19 @@ p{
     width: 200px;  
     visibility: hidden;  
 }
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 .end{
     background-color: #a5a5a5;
     padding: 1%;
