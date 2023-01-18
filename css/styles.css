@@ -33,6 +33,7 @@ p{
 }
 .navbar{
     background-color: #393c3d;
+    padding-right: 5%;
 }
 .toggler{
     color: wheat;
@@ -82,10 +83,10 @@ p{
     visibility: hidden;
 }
 #second{
-    background-image: url('../images/background2.png');
+    background-image: url('../images/hattyu.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: 100% 100%;
+    background-size: auto 120vh;
     padding : 5% 5%;
 
 }
@@ -116,9 +117,11 @@ p{
     width: 80%;
     margin: auto;
     padding: 5%;
+    padding-bottom: 1%;
     font-size: 1.2rem;
     color: white;
 }
+
 .carousel-1{
     height: 300px;
 }
@@ -148,13 +151,16 @@ p{
     width: 200px;  
     visibility: hidden;  
 }
+.youtube{
+    padding: 0% 10%;
+}
 .iframe-container{
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 60.25%; 
     height: 0;
   }
-  .iframe-container iframe{
+.iframe-container iframe{
     position: absolute;
     top:0;
     left: 0;
@@ -188,5 +194,8 @@ p{
         bottom: 0;
         right: 20%;
         visibility: hidden;
+    }
+    h4{
+        font-size: 1.2rem;
     }
 }
