@@ -99,6 +99,9 @@ p{
     padding-top: 3%;
     text-decoration: underline;
 }
+.dice{
+    width: 30%;
+}
 
 .third-container{
     background-image: url('../images/background.png');
