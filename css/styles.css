@@ -117,11 +117,14 @@ p{
     font-size: 1.2rem;
     color: white;
 }
+.spoty{
+    padding-bottom: 6%;
+}
 .carousel-1{
     height: 300px;
 }
 .dice{
-    width: 30%;
+    width: 20%;
 }
 .game-icon{
     padding:4%;
@@ -197,5 +200,8 @@ p{
     }
     .navbar{
         padding-right: 10px;
+    }
+    .testimonial-text{
+        font-size: 0.8rem;
     }
 }
