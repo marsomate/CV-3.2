@@ -23,10 +23,11 @@ h4{
 
 }
 p{
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: 'Ubuntu';
     line-height: 1.5;
 }
+
 .white-{
     color: white;
 
@@ -35,16 +36,10 @@ p{
     background-color: #393c3d;
     padding-right: 5%;
 }
-.toggler{
-    color: wheat;
-}
 .navbar-brand{
     color: #DBE2EF;
     font-weight: bold;
     font-size: 1.5rem;
-}
-.nav-link{
-    color: #DBE2EF;
 }
 .first-container{
     background-image: url('../images/background.png');
@@ -59,23 +54,21 @@ p{
     height: auto;
     margin: 10% 10%;
 }
-.intro-1{
+.intro{
     padding: 5%;
-}
-.bigHeading{
     color:white;
-}
 
-.firstDesciption{
-    color: rgba(255, 255, 255, 0.788);
 }
-.robot-picture{
+.firstDesciption{
+    color: rgba(224, 224, 224, 0.788);
+}
+.code-picture{
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
 }
-.robot-picture-hidden{
+.code-hidden{
     height: 100%;
     width: 100%;
     position: relative;
@@ -88,13 +81,16 @@ p{
     background-attachment: fixed; 
     background-size: auto 120vh;
     padding : 5% 5%;
-
 }
 
 .bio{
-    padding: 2%;
+    padding: 0;
+    padding-bottom: 2%;
     text-align: center;
     display: block;
+}
+.skill-description{
+    text-align: center;
 }
 .skill-elements{
     padding-top: 3%;
