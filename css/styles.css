@@ -178,14 +178,14 @@ p{
     color: white;
 }
 @media (max-width: 1024px) {
-    .robot-picture{
+    .code-picture{
         width: 300px;
         position: absolute;
         bottom: 0;
         right: 20%;
         visibility: hidden;
     }
-    .robot-picture-hidden{
+    .code-picture-hidden{
         width: 300px;
         position: absolute;
         bottom: 0;
