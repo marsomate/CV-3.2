@@ -27,7 +27,6 @@ p{
     font-family: 'Ubuntu';
     line-height: 1.5;
 }
-
 .white-{
     color: white;
 
@@ -82,7 +81,6 @@ p{
     background-size: auto 120vh;
     padding : 5% 5%;
 }
-
 .bio{
     padding: 0;
     padding-bottom: 2%;
@@ -96,10 +94,6 @@ p{
     padding-top: 3%;
     text-decoration: underline;
 }
-.dice{
-    width: 30%;
-}
-
 .third-container{
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
@@ -117,9 +111,11 @@ p{
     font-size: 1.2rem;
     color: white;
 }
-
 .carousel-1{
     height: 300px;
+}
+.dice{
+    width: 30%;
 }
 .support{
     text-align: center;
@@ -134,18 +130,15 @@ p{
 .tihany{
     text-align: center;
     position: relative;
-
+    margin: auto;
 }
 .tihany-picture{
     width: 25%;
-    display: block;
     position: relative;
-    margin: auto;
-    bottom:20%;
-}
-.tihany-picture-hidden{
-    width: 200px;  
-    visibility: hidden;  
+    top: 0px;
+    text-align: center;
+    padding: 2%;
+    margin: 5%;
 }
 .youtube{
     padding: 0% 10%;
