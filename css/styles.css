@@ -34,6 +34,7 @@ p{
 .navbar{
     background-color: #393c3d;
     padding-right: 100px;
+    padding: 0;
 }
 .navbar-brand{
     color: #DBE2EF;
