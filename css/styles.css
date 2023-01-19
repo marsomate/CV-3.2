@@ -33,12 +33,18 @@ p{
 }
 .navbar{
     background-color: #393c3d;
-    padding-right: 5%;
+    padding-right: 100px;
 }
 .navbar-brand{
     color: #DBE2EF;
     font-weight: bold;
     font-size: 1.5rem;
+}
+.dropdown-menu{
+    background-color: #575757;
+}
+.dropdown-item{
+    color:white;
 }
 .first-container{
     background-image: url('../images/background.png');
@@ -116,6 +122,9 @@ p{
 }
 .dice{
     width: 30%;
+}
+.game-icon{
+    padding:4%;
 }
 .support{
     text-align: center;
