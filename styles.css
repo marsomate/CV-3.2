@@ -47,7 +47,7 @@ p{
     color:white;
 }
 .first-container{
-    background-image: url('../images/background.png');
+    background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -81,7 +81,7 @@ p{
     visibility: hidden;
 }
 #second{
-    background-image: url('../images/hattyu.jpg');
+    background-image: url('images/hattyu.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: auto 120vh;
@@ -101,7 +101,7 @@ p{
     text-decoration: underline;
 }
 .third-container{
-    background-image: url('../images/background.png');
+    background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -131,7 +131,7 @@ p{
 }
 .support{
     text-align: center;
-    background-image: url('../images/background2.png');
+    background-image: url('images/background2.png');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -168,7 +168,7 @@ p{
     height: 100%;
   }
 .end{
-    background-image: url('../images/background.png');
+    background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
