@@ -84,6 +84,7 @@ p{
 .forStudents{
     background-color: rgb(255, 61, 61);
     border-radius: 25px;
+    font-size: large;
 }
 #second{
     background-image: url('images/hattyu.jpg');
