@@ -64,6 +64,7 @@ p{
     color:white;
 
 }
+
 .firstDesciption{
     color: rgba(224, 224, 224, 0.788);
 }
@@ -79,6 +80,10 @@ p{
     position: relative;
     bottom: 0;
     visibility: hidden;
+}
+.forStudents{
+    background-color: rgb(255, 61, 61);
+    border-radius: 25px;
 }
 #second{
     background-image: url('images/hattyu.jpg');
