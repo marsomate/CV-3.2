@@ -214,16 +214,15 @@ p{
     }
 }
 
-.forSudiesIntro{
+.forSudiesIntro-1{
     text-align: center;
     background-image: url('images/studyBackground.png');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
-    position: relative;  
-    padding: 0;
-    margin: 0;
-    
+    position: relative;    
+    height: 100%;
+ 
 }
 .forStudiesHeader{
     text-align: center;
@@ -233,4 +232,41 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.forSudiesIntro-2{
+    text-align: left;
+    background-image: url('images/studyBackground_2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    position: relative;
+    height: 100%;
+}
+.bookmarksHeader{
+    padding: 5%;
+}
+.bookmarksSemester{
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 5%;
+}
+.bookmarks{
+    font-size: large;
+}
+.bookmarksList{
+    margin-left: 5%;
+}
+.forSudiesIntro-3{
+    text-align: left;
+    background-color: #DFA67B;
+    position: relative;
+    height: 100%;
+}
+.borderImage{
+    background-image: url('images/hattyu.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: auto 120vh;
+    padding : 20% 20%;
+    height: 60%;
 }
