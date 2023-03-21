@@ -69,13 +69,13 @@ p{
     color: rgba(224, 224, 224, 0.788);
 }
 .code-picture{
-    width: 100%;
+    width: 90%;
     height: 100%;
     position: absolute;
     top: 0;
 }
 .code-hidden{
-    height: 100%;
+    height: 90%;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -233,11 +233,23 @@ p{
 .forStudiesHeader{
     text-align: center;
 }
+.first-container-studies-1{
+    background-image: url('images/studyBackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    color: #575757;
+}
+.first-container-studies-2{
+    background-image: url('images/studyBackground_2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
 .study-picture{
     width: 60%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0;
 }
 .forSudiesIntro-2{
     text-align: left;
@@ -274,4 +286,8 @@ p{
     background-size: auto 120vh;
     padding : 20% 20%;
     height: 60%;
+}
+.first-container-s{
+    margin:0;
+    position: relative;
 }
