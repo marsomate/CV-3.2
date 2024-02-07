@@ -1,0 +1,297 @@
+h1{
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+    padding:1%;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+p{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu';
+    line-height: 1.5;
+}
+.white-{
+    color: white;
+
+}
+.navbar{
+    background-color: #393c3d;
+    padding-right: 100px;
+}
+.navbar-brand{
+    color: #DBE2EF;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.dropdown-menu{
+    background-color: #575757;
+}
+.dropdown-item{
+    color:white;
+}
+.first-container{
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    margin:0;
+    position: relative;
+}
+.profile-picture{
+    width: 300px;
+    height: auto;
+    margin: 10% 10%;
+}
+.intro{
+    padding: 5%;
+    color:white;
+
+}
+
+.firstDesciption{
+    color: rgba(224, 224, 224, 0.788);
+}
+.code-picture{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.code-hidden{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    visibility: hidden;
+}
+.forStudents{
+    background-color: rgb(255, 61, 61);
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+}
+#second{
+    background-image: url('images/hattyu.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: auto 120vh;
+    padding : 5% 5%;
+}
+.bio{
+    padding: 0;
+    padding-bottom: 2%;
+    text-align: center;
+    display: block;
+}
+.skill-description{
+    text-align: center;
+}
+.skill-elements{
+    padding-top: 3%;
+    text-decoration: underline;
+}
+.third-container{
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 5%;
+}
+.testimonial-text{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+    padding-bottom: 1%;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.spoty{
+    padding-bottom: 6%;
+}
+.carousel-1{
+    height: 300px;
+}
+.dice{
+    width: 20%;
+}
+.game-icon{
+    padding:4%;
+}
+.support{
+    text-align: center;
+    background-image: url('images/background2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    padding: 2%;
+    position: relative;
+}
+.tihany{
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.tihany-picture{
+    width: 25%;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    padding: 2%;
+    margin: 5%;
+}
+.youtube{
+    padding: 0% 10%;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 60.25%; 
+    height: 0;
+  }
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.end{
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    padding: 1%;
+    text-align: center;
+}
+.copy{
+    padding:1%;
+    font-size: 1rem;
+    color: white;
+}
+@media (max-width: 1024px) {
+    .code-picture{
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+        visibility: hidden;
+    }
+    .code-picture-hidden{
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+        visibility: hidden;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    .navbar{
+        padding-right: 10px;
+    }
+    .testimonial-text{
+        font-size: 0.8rem;
+    }
+}
+
+.forStudies{
+    background-image: url('images/background2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    position: relative;
+    padding: 0%;
+}
+.forSudiesIntro-1{
+    text-align: center;
+    background-image: url('images/studyBackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    height: 100%;
+}
+.forStudiesHeader{
+    text-align: center;
+}
+.first-container-studies-1{
+    background-image: url('images/studyBackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    color: #575757;
+}
+.first-container-studies-2{
+    background-image: url('images/studyBackground_2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+.study-picture{
+    width: 60%;
+    display: block;
+    margin:0;
+}
+.study-picture-2{
+    width: 80%;
+    display: block;
+    float: right;
+}
+.forSudiesIntro-2{
+    text-align: left;
+    background-image: url('images/studyBackground_2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    height: 100%;
+}
+.bookmarksHeader{
+    padding: 5%;
+}
+.bookmarksSemester{
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 5%;
+}
+.bookmarks{
+    font-size: large;
+}
+.bookmarksList{
+    margin-left: 5%;
+}
+.forSudiesIntro-3{
+    text-align: left;
+    background-color: #DFA67B;
+    position: relative;
+    height: 100%;
+}
+.borderImage{
+    background-image: url('images/hattyu.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: auto 120vh;
+    padding : 20% 20%;
+    height: 60%;
+}
+.first-container-s{
+    margin:0;
+    position: relative;
+}
